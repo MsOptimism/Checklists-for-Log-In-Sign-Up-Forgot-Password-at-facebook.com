@@ -103,17 +103,17 @@ Check type | Check | Notes
   ***birthday*** |  | 
   smoke | default state | 
  smoke | works | 
-  | input consistency checks | dates in the future, etc.
-  | leap year check | 
+ smoke | input consistency checks | dates in the future, etc.
+ smoke | leap year check | 
   smoke| states after reloading the form |  
  ***gender*** |  | 
   smoke | default state | 
-  | functionality  | (on / off)
-  | more than 1 radio button cannot be enabled | 
-  | one radio button should be enabled | 
+ smoke | functionality  | (on / off)
+ smoke | more than 1 radio button cannot be enabled | 
+ smoke | one radio button should be enabled | 
   smoke| states after reloading the form | selected radio button should not be reset 
    ***"custom" gender choose***| | 
-  | "select your pronoun" dropdown | possible to choose
+ smoke | "select your pronoun" dropdown | possible to choose
   ***"gender(optional)" field***|  | 
   smoke | default state | 
  smoke | english | 
